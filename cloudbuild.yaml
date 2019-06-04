@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/ricktest/quickstart-image', '.' ]
+  args: [ 'build', '-t', 'gcr.io/triple-backbone-242308/quickstart-image', '.' ]
 images:
-- 'gcr.io/ricktest/quickstart-image'
+- 'gcr.io/triple-backbone-242308/quickstart-image'
